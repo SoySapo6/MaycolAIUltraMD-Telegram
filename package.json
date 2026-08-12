@@ -1,0 +1,37 @@
+{
+  "name": "pyl",
+  "version": "1.0.0",
+  "description": "Pyl - A professional Telegram bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toZyn/MaycolAIUltraMD-Telegram.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "pyl"
+  ],
+  "author": "Zyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toZyn/MaycolAIUltraMD-Telegram/issues"
+  },
+  "homepage": "https://github.com/toZyn/MaycolAIUltraMD-Telegram#readme",
+  "dependencies": {
+    "moment-timezone": "^0.6.0",
+    "@soymaycol/maytube": "^1.0.7",
+    "yt-search": "^2.10.3",
+    "formdata-node": "*",
+    "aptoide-scraper": "github:toZyn/MayAptoide",
+    "node-fetch": "^3.2.10",
+    "axios": "^1.6.8",
+    "form-data": "^4.0.0",
+    "file-type": "*",
+    "fluent-ffmpeg": "*",
+    "Telegram": "npm:@soymaycol/maytelegram"
+  }
+}
